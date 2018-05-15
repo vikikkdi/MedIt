@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vikikkdi.askit">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".shopkeeper"></activity>
+        <activity android:name=".customer"></activity>
+        <activity android:name=".customerpage"></activity>
+        <activity android:name=".shopkeeperpage"></activity>
+        <activity android:name=".medicineCount"></activity>
+        <activity android:name=".settings"></activity>
+        <activity android:name=".orders"></activity>
+        <activity android:name=".supplies"></activity>
+        <activity android:name=".medicineCountShopkeeper"></activity>
+        <activity android:name=".signout1"></activity>
+        <activity android:name=".noOrders"></activity>
+    </application>
+
+</manifest>
